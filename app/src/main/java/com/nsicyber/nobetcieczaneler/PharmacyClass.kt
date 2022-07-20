@@ -3,6 +3,7 @@ package com.nsicyber.nobetcieczaneler
 import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import com.yandex.mapkit.map.PlacemarkMapObject
 
 
 data class PharmacyClass(
@@ -40,6 +41,8 @@ data class PharmacyClass(
                 parcel.readString()
                 ) {
         }
+
+        var placemark:PlacemarkMapObject? = null
 
         override fun writeToParcel(p0: Parcel, flags: Int) {
                 TODO("not implemented") //To change body of created functions use File | Settings | File Templates.

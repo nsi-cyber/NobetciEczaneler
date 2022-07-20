@@ -15,7 +15,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/pharmacy_cardd"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
 
@@ -24,6 +24,8 @@
         app:cardCornerRadius="12dp"
 
         app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
